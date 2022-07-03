@@ -3,10 +3,10 @@
 ### 如何启动
 ####1.Edit Configuration -> 添加启动类Bootstrap
 ####2.添加vm options
-######-Dcatalina.home=D:/workspace/my-tomcat/apache-tomcat-8.5.81-src/home
-######-Dcatalina.base=D:/workspace/my-tomcat/apache-tomcat-8.5.81-src/home
+######-Dcatalina.home=D:/workspace/my-tomcat/home
+######-Dcatalina.base=D:/workspace/my-tomcat/home
 ######-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
-######-Djava.util.logging.config.file=D:/workspace/my-tomcat/apache-tomcat-8.5.81-src/home/conf/logging.properties
+######-Djava.util.logging.config.file=D:/workspace/my-tomcat/home/conf/logging.properties
 ######具体配置目录根据实际情况
 ####3.启动项目
 
